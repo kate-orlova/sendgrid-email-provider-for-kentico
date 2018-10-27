@@ -8,6 +8,8 @@ using System.IO;
 using System.Net;
 using System.Net.Mail;
 using System.Net.Mime;
+using System.Threading;
+using CMS.Base;
 
 namespace SendGridEmailProviderForKentico
 {
@@ -16,6 +18,16 @@ namespace SendGridEmailProviderForKentico
         protected override void SendEmailInternal(string siteName, MailMessage message, SMTPServerInfo smtpServer)
         {
             DispatchSendGridEmail(message);
+        }
+
+        protected override void SendEmailAsyncInternal(string siteName, MailMessage message, SMTPServerInfo smtpServer,
+            EmailToken emailToken)
+        {
+            ThreadPool.QueueUserWorkItem(userData =>
+            {
+                CMSThread.AllowEmptyContext();
+                DispatchSendGridEmail(message, true, emailToken);
+            });
         }
 
         private void DispatchSendGridEmail(MailMessage message, bool isAsync = false, EmailToken emailToken = null)
