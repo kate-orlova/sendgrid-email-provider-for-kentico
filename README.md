@@ -9,3 +9,6 @@ SendGridEmailProviderForKentico project is an extension for your Kentico solutio
 1. Modify SendGridEmailProvider.cs to utilise your SendGrid API key from settings
 1. Build and run
 1. That is all, you are ready to send emails from Kentico via SendGrid
+
+# Contribution
+Hope you found the above solution helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request with your code enhancements.
