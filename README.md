@@ -1,5 +1,5 @@
 # SendGrid Email Provider for Kentico
-SendGridEmailProviderForKentico project is an extension for your Kentico solution to enable use of [SendGrid](https://sendgrid.com/) as SMTP Server. The project contains a SendGridEmailProvider class implementing the integration with [SendGrid API version 3](https://sendgrid.com/docs/API_Reference/api_v3.html). It also uses the standard out-of-the-box Kentico features such as the email queue support and error logging into the Event Log.
+SendGrid Email Provider for Kentico project is an extension for your Kentico solution to enable use of [SendGrid](https://sendgrid.com/) as SMTP Server. The project contains a SendGridEmailProvider class implementing the integration with [SendGrid API version 3](https://sendgrid.com/docs/API_Reference/api_v3.html). It also uses the standard out-of-the-box Kentico features such as the email queue support and error logging into the Event Log.
 
 # Configuration Guide
 1. Include SendGridEmailProviderForKentico project into your Kentico solution
@@ -14,4 +14,4 @@ SendGridEmailProviderForKentico project is an extension for your Kentico solutio
 Hope you found the above solution helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request with your code enhancements.
 
 # License
-The SendGrid Email Provider for Kentico is released under the MIT license what means that you can modify and use it how you want even for commercial use. Please give it a star if you like it and your experience was positive.
+SendGrid Email Provider for Kentico is released under the MIT license what means that you can modify and use it how you want even for commercial use. Please give it a star if you like it and your experience was positive.
