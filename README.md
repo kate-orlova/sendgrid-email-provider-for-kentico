@@ -11,10 +11,11 @@ SendGrid Email Provider for Kentico project is an extension for your Kentico sol
 1. Include _SendGridEmailProviderForKentico_ project into your Kentico solution
 1. Restore Nuget packages for _SendGridEmailProviderForKentico_ project
 1. Check Kentico references in SendGridEmailProviderForKentico project (the ones pointing to _/lib/_ folder) and make sure that you use your Kentico assemblies 
-1. Install Nuget package _"Sendgrid"_ version "9.10.0" in your Kentico CMSApp
+1. Install Nuget package _"Sendgrid"_ version "9.10.0" in your _Kentico CMSApp_
 1. Modify _SendGridEmailProvider.cs_ to utilise your _SendGrid API key_ from settings
 1. Build and run
-1. That is all, you are ready to send emails from Kentico via SendGrid
+
+That is all, you are ready to send emails from your Kentico site via SendGrid.
 
 # Contribution
 Hope you found the above solution helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request with your code enhancements.
