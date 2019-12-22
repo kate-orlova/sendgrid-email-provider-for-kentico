@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kate-orlova/sendgrid-email-provider-for-kentico)
 [![GitHub release](https://img.shields.io/github/release-date/kate-orlova/sendgrid-email-provider-for-kentico.svg?style=flat)](https://github.com/kate-orlova/sendgrid-email-provider-for-kentico/releases/tag/MVPRelease)
 [![GitHub license](https://img.shields.io/github/license/kate-orlova/sendgrid-email-provider-for-kentico.svg)](https://github.com/kate-orlova/sendgrid-email-provider-for-kentico/blob/master/LICENSE)
 ![GitHub language count](https://img.shields.io/github/languages/count/kate-orlova/sendgrid-email-provider-for-kentico.svg?style=flat)
